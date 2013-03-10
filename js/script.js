@@ -30,7 +30,7 @@ $(document).ready(function() {
     image.prop("src", object.image);
     alert(image.prop('src'));
     image.width(800);
-    image.height(800);
+    //image.height(800);
     image.addClass("lazy");
     image.css({'display' : 'block'});
     image.css({'left' : '-25%'});

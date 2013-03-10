@@ -1,8 +1,34 @@
 $(document).ready(function() {
+    //So they're in a different order every time the page is refreshed
+    shuffleArray(objects);
+    populateImages();
+});
+
+/**
+ * Randomize array element order in-place.
+ * Using Fisher-Yates shuffle algorithm.
+ */
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
+/**
+ * Creates all the images and populates them
+ * 
+ */
+function populateImages() {
   var contentarea = $("#content ul");
-  for (var i = 0; i < 1; i++) {
+  for (var i = 0; i < objects.length; i++) {
+    //If I want a random object ... but here I just want all of them
+    //var object = objects[Math.floor(Math.random()*objects.length)];
+    
     //A piece of my awesomeness!  
-    var object = objects[Math.floor(Math.random()*objects.length)];
+    var object = objects[i];
 
     var itemOfJen = $(document.createElement("li"));
     itemOfJen.css({'height': '317.5px'});
@@ -23,14 +49,14 @@ $(document).ready(function() {
 
     var section = $(document.createElement("section"));
     section.addClass("img_overlay");
+    section.css({'display' : 'none'});
     section.append(name);
     section.append(source);
 
     var image = $(document.createElement("img"));
     image.prop("src", object.image);
-    alert(image.prop('src'));
-    image.width(800);
-    //image.height(800);
+    image.prop("width", "800");
+    image.prop("height", "800");
     image.addClass("lazy");
     image.css({'display' : 'block'});
     image.css({'left' : '-25%'});
@@ -47,7 +73,5 @@ $(document).ready(function() {
     itemOfJen.hide();
     contentarea.append(itemOfJen);
     itemOfJen.show();
-
-    alert("okay, it should appear now or something!");
   }
-});
+}

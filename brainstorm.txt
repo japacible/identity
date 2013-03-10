@@ -1,0 +1,43 @@
+Brainstorming Ideas:
+
+Multiple Views:
+-American
+-Chinese
+-Filipino
+
+Display:
+-Tiled images
+-Link to src/story
+
+Components:
+-Main
+-About
+  -Src code
+-List of all images/src
+
+Toggles:
+-Bootstrap switch (On/Off)
+
+Colour Scheme (1 switch on):
+-American: Red, White, Blue
+-Chinese: Red, Yellow
+-Filipino: Red, Blue, Yellow
+
+Colour Scheme (>1 switch on):
+-
+-
+-
+
+Images:
+-Food
+-Famous People
+-Celebrities
+-Clothes
+-Music
+-Beauty
+-TV Shows/Movies
+
+Reflection:
+-Why use a website as an 'art project' medium?
+  -
+-Why use toggles?

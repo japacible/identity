@@ -14,9 +14,9 @@ $(document).ready(function() {
 
             var centerX = (jenObjectWidth/2);
             var centerY = (jenObjectWidth/2);
-            $(this).on('mousemove', function(event) {
-                var mouseX = event.pageX - $(this).offset().left;
-                var mouseY = event.pageY - $(this).offset().top;
+            $(this).on('mousemove', function (e) {
+                var mouseX = e.pageX - $(this).offset().left;
+                var mouseY = e.pageY - $(this).offset().top;
                 var mouseDistX = (mouseX / centerX) * 100 - 100;
                 var mouseDistY = (mouseY / centerY) * 100 - 100;
                 $(this).find('img').css({
@@ -35,17 +35,17 @@ $(document).ready(function() {
         $(this).children('section').hide();
     });
 
-    $('#about-link').on('click', function(event) {
+    $('#about-link').on('click', function  (event) {
         event.preventDefault();
         $('#about').fadeToggle().toggleClass('active');
     });
 
-    $('#images *').on('click', function(event) {
+    $('#images *').on('click', function  (event) {
         if ($('#about').hasClass('active')) {
             event.preventDefault();
             $('#about').fadeToggle().toggleClass('active');
         }
-    });
+   });
 
     function setGrid () {
         if (windowWidth < 481) {
@@ -69,4 +69,7 @@ $(document).ready(function() {
         setGrid();
         setSize();
     });
+
+    //Currently doesn't do anything because we're already appending images
+    //$("img.lazy").lazyload({ threshold : 200, effect : "fadeIn" });
 });

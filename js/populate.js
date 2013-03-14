@@ -54,7 +54,6 @@ function populateImages() {
     image.prop("src", object.image);
     image.prop("width", "800");
     image.prop("height", "800");
-    image.addClass("lazy");
     image.css({'display' : 'block'});
     image.css({'left' : '-25%'});
     image.css({'top' : '-15%'});

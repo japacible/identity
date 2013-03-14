@@ -30,6 +30,9 @@ html {
     width:100%;
     height:1px;
 }
+#toggle {
+    text-align:center;
+}
 header {
     padding:30px 30px 20px 30px;
     height:45px;
@@ -76,11 +79,9 @@ div#about {
     right:100px;
     bottom:100px;
     z-index:15;
-    /*width:100%;*/
     padding:20px 20px 20px 20px;
-    background:rgb(200, 54, 54);
-    background:rgba(200, 54, 54, 0.8);
-    /*min-height:100px;*/
+    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255, 0.8);
 }
 section#images {
     *zoom:1;

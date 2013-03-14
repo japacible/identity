@@ -35,18 +35,6 @@ $(document).ready(function() {
         $(this).children('section').hide();
     });
 
-    $('#about-link').on('click', function(event) {
-        event.preventDefault();
-        $('#about').fadeToggle().toggleClass('active');
-    });
-
-    $('#images *').on('click', function(event) {
-        if ($('#about').hasClass('active')) {
-            event.preventDefault();
-            $('#about').fadeToggle().toggleClass('active');
-        }
-    });
-
     function setGrid () {
         if (windowWidth < 481) {
             percentSize = 100;

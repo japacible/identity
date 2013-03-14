@@ -1,0 +1,171 @@
+html, body, div, span, p, h3, a, img, ol, ul, li, figure, nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+article, figure, nav, section {
+    display:block;
+}
+body {
+    line-height:1;
+}
+ul {
+    list-style:none;
+}
+html {
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    font-family:Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size:20px;
+    line-height:19px;
+}
+#topdiv {
+    position:absolute;
+    top:-1px;
+    left:0;
+    width:100%;
+    height:1px;
+}
+header {
+    padding:30px 30px 20px 30px;
+    height:45px;
+    *zoom:1;
+}
+ header:after {
+    clear:both;
+}
+ header a {
+    color:black;
+    text-decoration:none;
+}
+ header h3 {
+    font-size:24px;
+    float:left;
+    display:block;
+}
+ header h3 a {
+    display:block;
+    height:33px;
+    padding-left:85px;
+    line-height:35px;
+    background-repeat:no-repeat;
+    background-position:left;
+    background-size:65px 33px;
+    -o-background-size:65px 33px;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+ header h3 a:hover {
+    text-shadow:0px 0px 15px #666666;
+}
+ header nav {
+    float:right;
+}
+div#about {
+    display:none;
+    position:fixed;
+    top:100px;
+    left:100px;
+    right:100px;
+    bottom:100px;
+    z-index:15;
+    /*width:100%;*/
+    padding:20px 20px 20px 20px;
+    background:rgb(200, 54, 54);
+    background:rgba(200, 54, 54, 0.8);
+    /*min-height:100px;*/
+}
+section#images {
+    *zoom:1;
+}
+ section#images:before, section#images:after {
+    content:" ";
+    display:table;
+}
+ section#images:after {
+    clear:both;
+}
+ section#images ul li {
+    display:block;
+    float:left;
+    overflow:hidden;
+    -webkit-transition:all 0.15s ease-in-out;
+    -moz-transition:all 0.15s ease-in-out;
+    -ms-transition:all 0.15s ease-in-out;
+    -o-transition:all 0.15s ease-in-out;
+    transition:all 0.15s ease-in-out;
+}
+ section#images ul li figure {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+ section#images ul li figure img {
+    width:130%;
+    height:130%;
+    position:absolute;
+    top:-15%;
+    left:-15%;
+    z-index:1;
+    color:white;
+}
+ section#images ul li figure .overlay {
+    display:none;
+    z-index:10;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    text-align:center;
+    background:rgb(105, 105, 105); /*Default in case no class*/
+    background:rgba(105, 105, 105, 0.5);
+    color:white;
+    -webkit-box-shadow:inset 0px 0px 35px 0px rgba(0, 0, 0, 0.45);
+    box-shadow:inset 0px 0px 35px 0px rgba(0, 0, 0, 0.45);
+}
+ section#images ul li figure .overlay.asia.usa {
+    background:rgb(100, 85, 25);
+    background:rgba(100, 85, 25, 0.6); 
+} section#images ul li figure .overlay.usa {
+    background:rgb(75, 75, 105);
+    background:rgba(75, 75, 105, 0.6); 
+}
+ section#images ul li figure .overlay.asia {
+    background:rgb(105, 50, 50);
+    background:rgba(105, 50, 50, 0.6); 
+}
+ section#images ul li figure .overlay h2 {
+    margin-top:20%;
+    font-size:25px;
+}
+ section#images ul li figure .overlay h2 a {
+    text-decoration:none;
+    color:white;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+ section#images ul li figure .overlay h2 a:hover {
+    text-shadow:0px 0px 5px #a1a1a1;
+}
+ section#images ul li figure .overlay span.source {
+    display:block;
+    margin-top:3%;
+    font-size:15px;
+    font-family:Georgia, Cambria, serif;
+    color:#cacaca;
+}
+ section#images ul li figure .overlay span.source a {
+    color:#cacaca;
+    text-decoration:none;
+}

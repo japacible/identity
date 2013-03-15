@@ -1,7 +1,29 @@
 $(document).ready(function() {
+    $('.hover').on('mouseenter', function(event) {
+        $(this).children('section').show();
+    });
+
+    $('.hover').on('mouseleave', function(event) {
+        $(this).children('section').hide();
+    });
+
     var windowWidth = $('#topdiv').width();
     var percentSize = (100/3);
     var $jenObject = $('#images li');
+
+    function setGrid () {
+        if (windowWidth < 481) {
+            percentSize = 100;
+        } else if(windowWidth > 480 && windowWidth < 801){
+            percentSize = 50;
+        } else if(windowWidth > 800 && windowWidth < 1281){
+            percentSize = (100/3);
+        } else if(windowWidth > 1280 && windowWidth < 1500){
+            percentSize = 25;
+        } else if(windowWidth > 1499){
+            percentSize = 20;
+        }
+    }
 
     function setSize () {
         var jenObjectWidth = windowWidth * percentSize / 100;
@@ -27,27 +49,27 @@ $(document).ready(function() {
         });
     }
 
-    $('.hover').on('mouseenter', function(event) {
-        $(this).children('section').show();
-    });
+    $('#usa-switch').on('switch-change', function(e, data) {
+        var usaStatus = $('#usa-switch').bootstrapSwitch('status');
+        var asiaStatus = $('#asia-switch').bootstrapSwitch('status');
 
-    $('.hover').on('mouseleave', function(event) {
-        $(this).children('section').hide();
-    });
-
-    function setGrid () {
-        if (windowWidth < 481) {
-            percentSize = 100;
-        } else if(windowWidth > 480 && windowWidth < 801){
-            percentSize = 50;
-        } else if(windowWidth > 800 && windowWidth < 1281){
-            percentSize = (100/3);
-        } else if(windowWidth > 1280 && windowWidth < 1500){
-            percentSize = 25;
-        } else if(windowWidth > 1499){
-            percentSize = 20;
+        if (usaStatus) {
+            $('.usa img').show();
+        } else {
+            $('.usa img').hide();
         }
-    }
+    });
+
+    $('#asia-switch').on('switch-change', function(e, data) {
+        var usaStatus = $('#usa-switch').bootstrapSwitch('status');
+        var asiaStatus = $('#asia-switch').bootstrapSwitch('status');
+
+        if (asiaStatus) {
+            $('.asia img').show();
+        } else {
+            $('.asia img').hide();
+        }
+    });
     
     setGrid();
     setSize();

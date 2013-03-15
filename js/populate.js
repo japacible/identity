@@ -29,7 +29,8 @@ function populateImages() {
     var itemOfJen = $(document.createElement("li"));
     itemOfJen.css({'height': '317.5px'});
     itemOfJen.css({'width': '317.5px'});
-
+    itemOfJen.addClass(object.origin)
+    
     var name = $(document.createElement("h2"));
     var nameText = document.createTextNode(object.name);
     name.append(nameText);
@@ -45,7 +46,7 @@ function populateImages() {
 
     var section = $(document.createElement("section"));
     section.addClass("overlay");
-    section.addClass(object.origin)
+//    section.addClass(object.origin)
     section.css({'display' : 'none'});
     section.append(name);
     section.append(source);
@@ -63,7 +64,7 @@ function populateImages() {
     figure.addClass("hover");
     figure.append(section);
     figure.append(image);
-    
+
     itemOfJen.append(figure);
 
     itemOfJen.hide();

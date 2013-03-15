@@ -132,17 +132,21 @@ section#images {
     -webkit-box-shadow:inset 0px 0px 35px 0px rgba(0, 0, 0, 0.45);
     box-shadow:inset 0px 0px 35px 0px rgba(0, 0, 0, 0.45);
 }
- section#images ul li figure .overlay.asia.usa {
+ section#images ul li.asia.usa figure .overlay {
     background:rgb(100, 85, 25);
     background:rgba(100, 85, 25, 0.6); 
-} section#images ul li figure .overlay.usa {
+} section#images ul li.usa figure .overlay {
     background:rgb(75, 75, 105);
     background:rgba(75, 75, 105, 0.6); 
 }
- section#images ul li figure .overlay.asia {
+ section#images ul li.asia figure .overlay {
     background:rgb(105, 50, 50);
     background:rgba(105, 50, 50, 0.6); 
 }
+ section#images ul li.mix figure .overlay {
+    background:rgb(255, 255, 255);
+    background:rgba(255, 255, 255, .6);
+ }
  section#images ul li figure .overlay h2 {
     margin-top:20%;
     font-size:25px;

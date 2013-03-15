@@ -27,12 +27,12 @@ var objects = [
     "comment":"insert comment here"
   },
   {
-    "image":"img/baxter_five.jpg",
+    "image":"img/leeminho_two.jpg",
     "name":"baxter",
     "source": "source here",
     "link":"http://www.corgiland.com",
     "tags":"corgi",
-    "origin":"usa",
+    "origin":"mix",
     "comment":"insert comment here"
   }
 ];

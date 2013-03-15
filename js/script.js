@@ -55,8 +55,15 @@ $(document).ready(function() {
 
         if (usaStatus) {
             $('.usa img').show();
+            if (asiaStatus) {
+              $('.mix img').show();
+            }
         } else {
             $('.usa img').hide();
+            $('.mix img').hide();
+            if (asiaStatus) {
+              $('.asia img').show();
+            }
         }
     });
 
@@ -66,8 +73,15 @@ $(document).ready(function() {
 
         if (asiaStatus) {
             $('.asia img').show();
+            if (usaStatus) {
+              $('.mix img').show();
+            }
         } else {
             $('.asia img').hide();
+            $('.mix img').hide();
+            if (usaStatus) {
+              $('.usa img').show();
+            }
         }
     });
     

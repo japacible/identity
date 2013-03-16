@@ -16,6 +16,46 @@ var objects = [
     "comment":"insert comment here"
   },
   {
+    "image":"img/both/costco.jpg",
+    "name":"Costco",
+    "source": "Official Site",
+    "link":"http://www.costco.com",
+    "origin":"asia usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/both/lion-king.jpg",
+    "name":"Lion King",
+    "source": "IMDb",
+    "link":"http://www.imdb.com/title/tt0110357/",
+    "origin":"asia usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/both/soccer.jpg",
+    "name":"Soccer",
+    "source": "Major League Soccer",
+    "link":"http://www.mlssoccer.com/",
+    "origin":"asia usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/both/tennis.jpg",
+    "name":"Tennis",
+    "source": "US Tennis Association",
+    "link":"http://www.usta.com/",
+    "origin":"asia usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/both/thepianoguys.jpeg",
+    "name":"ThePianoGuys",
+    "source": "YouTube Channel",
+    "link":"http://www.youtube.com/user/thepianoguys",
+    "origin":"asia usa",
+    "comment":"insert comment here"
+  },
+  {
     "image":"img/both/freddie-wong.jpg",
     "name":"Freddie Wong",
     "source": "YouTube Channel",
@@ -39,8 +79,8 @@ var objects = [
     "origin":"asia usa",
     "comment":"insert comment here"
   },
-  
-{    "image":"img/both/pho.jpg",
+  {  
+    "image":"img/both/pho.jpg",
     "name":"Pho",
     "source": "Than Brothers",
     "link":"http://www.thanbrothers.com/",
@@ -444,6 +484,150 @@ var objects = [
     "name":"Taylor Swift",
     "source": "Official Site",
     "link":"http://www.taylorswift.com",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/asian/99ranch.jpg",
+    "name":"99 Ranch Market",
+    "source": "Official Site",
+    "link":"http://www.99ranch.com/",
+    "origin":"asia",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/asian/manila.jpg",
+    "name":"Manila, Philippines",
+    "source": "Trip Advisor",
+    "link":"http://www.tripadvisor.com/Tourism-g298573-Manila_Metro_Manila_Luzon-Vacations.html",
+    "origin":"asia",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/asian/hong-kong.jpg",
+    "name":"Hong Kong, China",
+    "source": "Discover Hong Kong",
+    "link":"http://www.discoverhongkong.com",
+    "origin":"asia",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/mix/mango.jpg",
+    "name":"Mango",
+    "source": "Fresh Mangos",
+    "link":"http://freshmangos.com",
+    "origin":"mix",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/mix/photography.jpg",
+    "name":"Photography",
+    "source": "Glazer's Camera",
+    "link":"http://www.glazerscamera.com/",
+    "origin":"mix",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/molten-lava-cake.jpg",
+    "name":"Molten Lava Cake",
+    "source": "Food Network",
+    "link":"http://www.foodnetwork.com/recipes/paula-deen/molten-lava-cakes-recipe/index.html",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/savory-crepe.jpg",
+    "name":"Savory Crepe",
+    "source": "Yelp: Crepe Cravers",
+    "link":"http://www.yelp.com/biz/crepe-cravers-seattle",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/chopped.jpg",
+    "name":"Chopped",
+    "source": "Food Network",
+    "link":"http://www.foodnetwork.com/chopped/index.html",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/bagel.jpg",
+    "name":"Bagels",
+    "source": "Noah's Bagels",
+    "link":"http://www.noahs.com/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/himym.jpg",
+    "name":"How I Met Your Mother",
+    "source": "CBS",
+    "link":"http://www.cbs.com/shows/how_i_met_your_mother/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/curling.jpg",
+    "name":"Curling",
+    "source": "US Curling Association",
+    "link":"http://www.curlingrocks.net/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/warsaw-poland.jpg",
+    "name":"Warsaw, Poland",
+    "source": "Trip Advisor",
+    "link":"http://www.tripadvisor.com/Tourism-g274856-Warsaw_Mazovia_Province_Central_Poland-Vacations.html",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/white-collar.jpg",
+    "name":"White Collar",
+    "source": "IMDb",
+    "link":"http://www.imdb.com/title/tt1358522/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/wine-and-cheese.jpg",
+    "name":"Wine and Cheese",
+    "source": "Wine Enthusiast Magazine",
+    "link":"http://www.winemag.com/Wine-Enthusiast-Magazine/wine-and-cheese/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/waffles.jpg",
+    "name":"Waffles",
+    "source": "Food Network",
+    "link":"http://www.foodnetwork.com/recipes/alton-brown/basic-waffle-recipe/index.html",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/les-miserables.jpg",
+    "name":"Les Miserables",
+    "source": "IMDb",
+    "link":"http://www.imdb.com/title/tt1707386/",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/eggs-benedict.jpg",
+    "name":"Eggs Benedict",
+    "source": "Food Network",
+    "link":"http://www.foodnetwork.com/recipes/food-network-kitchens/eggs-benedict-recipe/index.html",
+    "origin":"usa",
+    "comment":"insert comment here"
+  },
+  {
+    "image":"img/usa/starbucks.jpg",
+    "name":"Starbucks",
+    "source": "Official Site",
+    "link":"http://www.starbucks.com/",
     "origin":"usa",
     "comment":"insert comment here"
   }

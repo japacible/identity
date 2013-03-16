@@ -46,7 +46,6 @@ function populateImages() {
 
     var section = $(document.createElement("section"));
     section.addClass("overlay");
-//    section.addClass(object.origin)
     section.css({'display' : 'none'});
     section.append(name);
     section.append(source);
@@ -55,6 +54,7 @@ function populateImages() {
     image.prop("src", object.image);
     image.prop("width", "800");
     image.prop("height", "800");
+    image.prop("title", object.comment);
     image.css({'display' : 'block'});
     image.css({'left' : '-25%'});
     image.css({'top' : '-15%'});

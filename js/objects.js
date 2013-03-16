@@ -4,7 +4,6 @@ var objects = [
     "name":"image one",
     "source": "source here",
     "link":"http://www.google.com",
-    "tags":"food",
     "origin":"asia usa",
     "comment":"insert comment here"
   },
@@ -13,7 +12,6 @@ var objects = [
     "name":"baxter",
     "source": "source here",
     "link":"http://www.corgiland.com",
-    "tags":"corgi",
     "origin":"usa",
     "comment":"insert comment here"
   },
@@ -22,7 +20,6 @@ var objects = [
     "name":"baxter",
     "source": "source here",
     "link":"http://www.corgiland.com",
-    "tags":"corgi",
     "origin":"asia",
     "comment":"insert comment here"
   },
@@ -31,7 +28,6 @@ var objects = [
     "name":"baxter",
     "source": "source here",
     "link":"http://www.corgiland.com",
-    "tags":"corgi",
     "origin":"mix",
     "comment":"insert comment here"
   }

@@ -16,7 +16,7 @@ var objects = [
     "comment":"insert comment here"
   },
   {
-    "image":"img/both/costco.jpg",
+    "image":"img/both/costco.JPG",
     "name":"Costco",
     "source": "Official Site",
     "link":"http://www.costco.com",
@@ -504,7 +504,7 @@ var objects = [
     "comment":"insert comment here"
   },
   {
-    "image":"img/asian/hong-kong.jpg",
+    "image":"img/asian/hong-kong.JPG",
     "name":"Hong Kong, China",
     "source": "Discover Hong Kong",
     "link":"http://www.discoverhongkong.com",
@@ -528,7 +528,7 @@ var objects = [
     "comment":"insert comment here"
   },
   {
-    "image":"img/usa/molten-lava-cake.jpg",
+    "image":"img/usa/molten-lava-cake.JPG",
     "name":"Molten Lava Cake",
     "source": "Food Network",
     "link":"http://www.foodnetwork.com/recipes/paula-deen/molten-lava-cakes-recipe/index.html",
@@ -536,7 +536,7 @@ var objects = [
     "comment":"insert comment here"
   },
   {
-    "image":"img/usa/savory-crepe.jpg",
+    "image":"img/usa/savory-crepe.JPG",
     "name":"Savory Crepe",
     "source": "Yelp: Crepe Cravers",
     "link":"http://www.yelp.com/biz/crepe-cravers-seattle",

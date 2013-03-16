@@ -33,7 +33,7 @@ var objects = [
   },
   {
     "image":"img/both/pad-thai.jpg",
-    "name":"image one",
+    "name":"Pad Thai",
     "source": "Food Network",
     "link":"http://www.foodnetwork.com/recipes/alton-brown/pad-thai-recipe/index.html",
     "origin":"asia usa",

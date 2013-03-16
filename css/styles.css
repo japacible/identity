@@ -18,7 +18,7 @@ ul {
 html {
     text-rendering:optimizeLegibility;
     -webkit-font-smoothing:antialiased;
-    font-family:Helvetica, Arial, sans-serif;
+    font-family:'Sintony', Helvetica, sans-serif;
     font-weight:300;
     font-size:20px;
     line-height:19px;
@@ -167,7 +167,7 @@ section#images {
     display:block;
     margin-top:3%;
     font-size:15px;
-    font-family:Georgia, Cambria, serif;
+    font-family:'Antic Didone', Cambria, serif;
     color:#cacaca;
 }
  section#images ul li figure .overlay span.source a {

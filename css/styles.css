@@ -133,19 +133,19 @@ section#images {
     box-shadow:inset 0px 0px 35px 0px rgba(0, 0, 0, 0.45);
 }
  section#images ul li.asia.usa figure .overlay {
-    background:rgb(100, 85, 25);
-    background:rgba(100, 85, 25, 0.6); 
+    background:rgb(161, 95, 240);
+    background:rgba(161, 95, 240, 0.6); 
 } section#images ul li.usa figure .overlay {
-    background:rgb(75, 75, 105);
-    background:rgba(75, 75, 105, 0.6); 
+    background:rgb(108, 166, 205);
+    background:rgba(108, 166, 205, 0.6); 
 }
  section#images ul li.asia figure .overlay {
-    background:rgb(105, 50, 50);
-    background:rgba(105, 50, 50, 0.6); 
+    background:rgb(204, 78, 92);
+    background:rgba(204, 78, 92, 0.6); 
 }
  section#images ul li.mix figure .overlay {
-    background:rgb(255, 255, 255);
-    background:rgba(255, 255, 255, .6);
+    background:rgb(170, 170, 170);
+    background:rgba(170, 170, 170, 0.6);
  }
  section#images ul li figure .overlay h2 {
     margin-top:20%;
